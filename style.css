@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* GLOBAL */
+section {
+  min-height: 100vh;
+  background: url("background.jpg") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.content {
+  position: relative;
+  color: #fff;
+  max-width: 700px;
+  padding: 20px;
+}
+
+/* COVER */
+.cover h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.cover h2 {
+  font-size: 48px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.cover h3 {
+  margin: 15px 0;
+  font-weight: normal;
+}
+
+.cover button {
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cover button:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* MAIN */
+.main {
+  display: none;
+}
+
+.main h1 {
+  font-size: 28px;
+}
+
+.main h2 {
+  font-size: 46px;
+  font-style: italic;
+  margin: 15px 0;
+}
+
+.main p {
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-size: 14px;
+  opacity: 0.9;
+  line-height: 1.8;
+}
+.gallery {
+  padding: 60px 20px;
+  background: #111;
+  color: #fff;
+}
+
+.slider {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slider img {
+  width: 80%;
+  max-width: 300px;
+  border-radius: 15px;
+  scroll-snap-align: center;
+}
+body {
+  font-family: "Playfair Display", serif;
+  background: #2b1d0e;
+  color: #f5e6c8;
+}
+.countdown {
+  text-align: center;
+  padding: 40px;
+}
+#timer {
+  font-size: 24px;
+  font-weight: bold;
+}
+.calendar-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 30px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}
+#musicBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  background: #000;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+.wa-share {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #25d366;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+}
